@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev # application-dev.yml 활성화
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+logging:
+  level:
+    io.dongin.todohub: debug
